@@ -1,3 +1,3 @@
-# mutu
+# SoundArena on Sails
 
-a [Sails](http://sailsjs.org) application
+An old experiment with Sails.js MVC Framework.

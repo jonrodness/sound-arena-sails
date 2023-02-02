@@ -1,0 +1,49 @@
+<div id="content" class="container">
+	<div class="col col-md-8">
+		<div class="section">
+			<div id="media-container">
+				<div id="media">
+					<!-- TODO: add styles to css file -->
+					<iframe class="iframe" scrolling="no" frameborder="no"></iframe>
+				</div>
+			</div>
+			<div id="control-container">
+				<div id="selected-tracks-container">
+					<h4>Selected track: </h4>		
+					<select id="trackList"  name="tracklist"></select>
+					<!-- TODO: add link to own user page -->
+				</div>
+				<div id="next-button-container">
+					<!-- TODO: disable button and add message until user has consumed media (also enable timer) -->
+					<input id="next-button" type="button" class="btn btn-success disabled" value="Next" disabled></input>
+				</div>
+			</div>
+		</div>
+		<div id="charts" class="section">
+			<h4 class="section-title">Longest listened to songs</h4>
+		</div>
+	</div>
+	<div class="col col-md-4">
+		<div class="section">
+			<h4 class="section-title">Previously played</h4>
+			<div id="previously-played-container">
+			</div>
+		</div>
+	</div>
+	<div>
+		<input id="test-button" type="button" class="btn" value="TEST"></input>
+		<audio controls id="audio-player"></audio>
+	</div>
+</div>
+
+<!-- TODO: add scripts to their own files -->
+<script src="https://connect.soundcloud.com/sdk/sdk-3.0.0.js"></script>
+<!-- TODO: may not need jquery here if scripts below are added into own files. Only 
+	added here as it is a dependency of below script -->
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<script src='/js/modules/player.js'></script>
+
+
+

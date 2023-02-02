@@ -1,0 +1,109 @@
+/* player.sass */
+
+#prev-played-list {
+	padding-left: 0;
+    margin-bottom: 0;
+	
+	.avatar {
+		float: left;
+		margin-right: 8px;
+	}
+
+	li {
+	    list-style-type: none;
+	    margin-top: 3px;
+
+		.title {
+		    font-size: 16px;
+		    color: rgb(0, 0, 0);
+		}
+		
+		.author {
+		    font-size: 14px;
+		    color: rgb(100, 200, 200);
+		    padding-left: 7px;
+		}		
+	}
+
+	span {
+		display: block;
+		font-family: lato, sans-serif;
+	}
+
+	a:hover,
+	a:focus {
+		text-decoration: none;
+	}
+
+	a:hover .author {
+		color: rgb(50, 100, 200);
+	}	
+}
+
+
+#media-container {
+	display: flex;
+	flex-wrap: nowrap;
+
+	> div {
+		align-items: center;
+	}	
+}
+
+#media,
+#trackList,
+#next-button-container {
+	flex: 1;
+}
+
+.center-flex-box {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#control-container {
+	@extend .center-flex-box;
+	padding-top: 10px;
+}
+
+#selected-tracks-container {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	@extend .center-flex-box;
+
+	h4 {
+		margin-bottom: 0;
+		margin-right: 10px;	
+	}
+}
+
+#next-button-container {
+	text-align: center;
+	margin-left: 10px;
+}
+
+#next-button {
+	font-size: 25px;
+	width: 100px;
+	height: 50px;
+	padding: 0;
+}
+
+.iframe {
+	width: 100%;
+}
+
+.section {
+	background-color: rgb(255, 255, 255);
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 15px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+
+	.section-title {
+		color: rgb(100, 100, 100);
+		font-family: "Comic Sans MS", cursive, sans-serif;
+	}	
+}

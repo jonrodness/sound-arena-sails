@@ -1,0 +1,165 @@
+#body {
+	background-size: cover;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 50px;
+	background-color: rgb(240, 240, 240);
+}
+
+#top-header {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 50px;
+	font-weight: light;
+	color: black;
+	margin-top: 100px;
+}
+
+#header-msg {
+	font-weight: bold;
+}
+
+/* Home */
+
+.container-fluid.first-container {
+	background: url("/images/crowd-light.jpg") no-repeat center fixed;
+	background-size: cover;
+}
+
+#panel-3 {
+	background: url("/images/croc.jpg") no-repeat center;
+	background-size: cover;
+}
+
+#panel-2, #panel-4 {
+	height: 400px;
+	background: rgb(255, 255, 255);
+}
+
+#panel-3, #panel-5 {
+	height: 800px;
+}
+
+#login {
+	background: rgba(0, 0, 0, 0.3);	
+	position: fixed;
+	right: 15px;;
+	bottom: 15px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px;
+	border-radius: 2px;
+	padding: 5px;
+}
+
+
+/* Navbar */
+
+#navbar {
+	background-color: rgb(50, 50, 50);
+	border: none;
+}
+
+#navbar .navbar-nav>li:hover,
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+	background-color: rgb(60,60,60);
+}
+
+.navbar-transparent {
+	opacity: 0.3;
+}
+
+.navbar.navbar-default.navbar-fixed-top a {
+	color: white;
+	font-size: 17px;
+}
+
+
+.navbar-default .navbar-nav>.dropdown.open>a {
+	background-color: rgb(60, 60, 60);
+	color: white;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+	color: white;
+}
+
+.dropdown-menu {
+	background-color: rgb(50, 50, 50);
+	border: none;
+}
+
+.navbar .navbar-plays.new-plays {
+	background-color: rgb(30, 185, 238);
+	border-radius: 1px;
+}
+
+.navbar .navbar-plays.new-plays a.navbar-plays-text {
+	color: black;
+}
+
+/* Modal */
+.v-modal-container {
+	display: table;
+	height: 100%;
+	width: 100%;
+	pointer-events: none;
+}
+
+.v-centered-modal {
+	display: table-cell;
+	vertical-align: middle;
+	pointer-events:none;
+}
+
+.modal-content {
+	width: inherit;
+	height:inherit;
+	margin: 0 auto;
+	pointer-events: all;
+}
+
+
+/* Orbs */
+#orb-box {
+	position: relative;
+	height: 500px;
+}
+
+/* TODO: url for each orb should be signup/login if not already logged in*/
+.orb {
+	background-image: url("/images/jenn.jpeg");
+	background-size: cover;
+	background-color: black;
+	position: absolute;
+	border: none;
+	box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px;
+}
+
+#orb-box-container-inner {
+	text-align: center;
+	margin: auto;
+	width: 1400px;
+	max-width: 100%;
+	min-width: 100px;
+}
+
+/* Player CSS */
+@media (min-width: 1600px) {
+	.container {
+	    width: 1300px;
+	}
+}
+
+#content {
+	margin: 0 auto;
+	margin-top: 20px;
+	max-width: 1280px;
+	background-color: rgb(240, 240, 240);
+}
+
+#content h4 {
+	margin-top: 0;
+}
+
+.col-md-8, .col-md-4 {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
